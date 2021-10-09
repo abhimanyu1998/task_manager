@@ -1,5 +1,5 @@
 const express=require('express');
-const port=8000 || process.env.PORT;
+const port= process.env.PORT || 8000 ;
 
 const app=express();
 
