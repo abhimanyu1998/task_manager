@@ -1,7 +1,10 @@
 const mongoose=require('mongoose');
 
 
-mongoose.connect('mongodb://localhost/mydatabase');
+// mongoose.connect('mongodb://localhost/mydatabase');
+
+mongoose.connect('mongodb+srv://abhiman:mypassword@cluster0.8s4cf.mongodb.net/toDoTaskManager?retryWrites=true&w=majority')
+
 
 const db=mongoose.connection;
 
